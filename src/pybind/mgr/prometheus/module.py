@@ -42,7 +42,7 @@ def health_status_to_number(status):
     elif status == 'HEALTH_ERR':
         return 2
 
-PG_STATES = ['creating', 'active', 'clean', 'down', 'scrubbing', 'degraded',
+PG_STATES = ['creating', 'active', 'clean', 'down', 'scrubbing', 'deep', 'degraded',
         'inconsistent', 'peering', 'repair', 'recovering', 'forced-recovery',
         'backfill', 'forced-backfill', 'wait-backfill', 'backfill-toofull',
         'incomplete', 'stale', 'remapped', 'undersized', 'peered']
